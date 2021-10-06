@@ -1,1 +1,41 @@
-"hello, world" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memo App</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="app">
+            <h1 class="memo">Memo</h1>
+            <p>Title</p>
+            <input type="text" id="title">
+            <p>Date</p>
+            <input type="date" id="date">
+            <p>Time</p>
+            <input type="time" id="time">
+            <p>Content</p>
+            <input class="des" type="text" id="des">
+            <a href="#!" class="add" id="addBtn">ADD</a>
+            <a href="#!" class="remove" id="deleteBtn">REMOVE THE LAST ONE</a>
+            <div class="list" id="list">
+                <!-- <div class="item">
+                    <div>
+                        <p>Title：</p>
+                        <p>Time：</p>
+                        <p>Content：</p>
+                    </div>      
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

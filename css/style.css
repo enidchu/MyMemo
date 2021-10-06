@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, button{
+    margin: 0;
+}
+p{
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+/* container */
+.wrapper{
+    height: 100%;
+    background-image: url(../image/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    left: 0;
+    top: 0;
+}
+.app{
+    width: 300px;
+    padding: 12px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid hsl(224, 23%, 55%);
+    color: hsl(224, 19%, 46%);
+    font-weight: 600;
+}
+/* component */
+.add, .remove{
+    text-align: center;
+    width: 275px;
+    color: whitesmoke;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: rgb(141, 161, 180);
+    border: none;
+    border-radius: 10px;
+    border-bottom: 0px solid hsl(229, 12%, 82%);
+    transition: all 0.2s;
+}
+.add:hover{
+    border-bottom:4px solid hsl(229, 12%, 82%);
+    transform: translate(0,-4px);
+}
+.remove:hover{
+    border-bottom:4px solid hsl(229, 12%, 82%);
+    transform: translate(0,-4px);
+
+}
+.memo{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.des{
+    height: 50px;
+}
+.list{
+    padding-top: 5px;
+}
+.item {
+    width: 100%;
+    border-bottom: 1px solid hsl(223, 47%, 23%);
+    padding-bottom: 10px;
+    
+}
+.content{
+    margin-bottom: 15px;
+}
