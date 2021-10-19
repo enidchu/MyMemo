@@ -73,9 +73,6 @@ a{
     font-weight: 900;
 }
 
-.des{
-    height: 50px;
-}
 .list{
     padding-top: 5px;
 }
@@ -86,5 +83,6 @@ a{
     
 }
 .content{
+    width: 100%;
     margin-bottom: 15px;
 }
